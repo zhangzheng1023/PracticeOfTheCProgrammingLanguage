@@ -21,11 +21,11 @@ int main() {
     printEOF();
     func1();
 
-    // c = getchar();
-    // while (c != EOF) {
-    //     putchar(c);
-    //     c = getchar();
-    // }
+    c = getchar();
+    while (c != EOF) {
+        putchar(c);
+        c = getchar();
+    }
 
     return 0;
 }
